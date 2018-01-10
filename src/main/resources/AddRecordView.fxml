@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane  prefHeight="210.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddRecordController">
+   <children>
+      <Text layoutX="30.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" AnchorPane.topAnchor="130.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="30.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <TextField layoutX="145.0" layoutY="16.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField layoutX="145.0" layoutY="56.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField layoutX="145.0" layoutY="96.0" prefHeight="25.0" prefWidth="233.0" />
+      <TextField layoutX="145.0" layoutY="136.0" prefHeight="25.0" prefWidth="233.0" />
+      <Button layoutX="326.0" layoutY="171.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" text="Save" />
+      <Button layoutX="262.0" layoutY="171.0" mnemonicParsing="false" text="Cansel" />
+   </children>
+</AnchorPane>
